@@ -1,0 +1,96 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="screenWidthInCm" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">33.75</Value>
+    </Setting>
+    <Setting Name="screenHeightInCm" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">27</Value>
+    </Setting>
+    <Setting Name="screenWidhtInPx" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1280</Value>
+    </Setting>
+    <Setting Name="screenHeightInPx" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1024</Value>
+    </Setting>
+    <Setting Name="TappingLeft" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="keyWordLeft" Type="system.windows.forms.keys" Scope="User">
+      <Value Profile="(Default)">F2</Value>
+    </Setting>
+    <Setting Name="keyWordRight" Type="system.windows.forms.keys" Scope="User">
+      <Value Profile="(Default)">F11</Value>
+    </Setting>
+    <Setting Name="keyPseudoWordLeft" Type="system.windows.forms.keys" Scope="User">
+      <Value Profile="(Default)">F1</Value>
+    </Setting>
+    <Setting Name="keyPseudoWordRight" Type="system.windows.forms.keys" Scope="User">
+      <Value Profile="(Default)">F12</Value>
+    </Setting>
+    <Setting Name="wordListFilename" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="logFileName" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="breakDistance" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">80</Value>
+    </Setting>
+    <Setting Name="lblStart" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Press ESC to start the experiment</Value>
+    </Setting>
+    <Setting Name="lblBreak" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BREAK - Press ESC to continue the experiment</Value>
+    </Setting>
+    <Setting Name="lblTapping" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TAPPING until the next break</Value>
+    </Setting>
+    <Setting Name="lblTappingOff" Type="System.String" Scope="User">
+      <Value Profile="(Default)">NO TAPPING until the next break</Value>
+    </Setting>
+    <Setting Name="lblFinish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Thank you for participating in our study - Press ESC to exit the experiment</Value>
+    </Setting>
+    <Setting Name="durationStart" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">1000000000</Value>
+    </Setting>
+    <Setting Name="durationTapping" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">3000</Value>
+    </Setting>
+    <Setting Name="durationFixation" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">800</Value>
+    </Setting>
+    <Setting Name="durationInterstimulus" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">1200</Value>
+    </Setting>
+    <Setting Name="durationStimulus" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">150</Value>
+    </Setting>
+    <Setting Name="durationResponse" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">3000</Value>
+    </Setting>
+    <Setting Name="durationBreak" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">1000000000</Value>
+    </Setting>
+    <Setting Name="keysTappingRight" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;F1&lt;/string&gt;
+  &lt;string&gt;F2&lt;/string&gt;
+  &lt;string&gt;F3&lt;/string&gt;
+  &lt;string&gt;F4&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="keysTappingLeft" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;F12&lt;/string&gt;
+  &lt;string&gt;F11&lt;/string&gt;
+  &lt;string&gt;F10&lt;/string&gt;
+  &lt;string&gt;F9&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
