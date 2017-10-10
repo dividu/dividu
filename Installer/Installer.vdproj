@@ -15,8 +15,8 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_1E80C32B49089D1C3D86A05AF6B66180"
-        "OwnerKey" = "8:_992FF65E94D0451FA8CC0DA542054F8A"
+        "MsmKey" = "8:_1CAA26B7288664E0A68A8B5158BEAFB4"
+        "OwnerKey" = "8:_D8AEE8271139491FBF08286D38FDF22C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -39,8 +39,8 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_E7FE1314729A977087AFCC623BDF0E78"
-        "OwnerKey" = "8:_D8AEE8271139491FBF08286D38FDF22C"
+        "MsmKey" = "8:_FB054DB6015499B45FACDBA0C515DEAA"
+        "OwnerKey" = "8:_992FF65E94D0451FA8CC0DA542054F8A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -52,7 +52,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_E7FE1314729A977087AFCC623BDF0E78"
+        "OwnerKey" = "8:_1CAA26B7288664E0A68A8B5158BEAFB4"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -150,10 +150,21 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1E80C32B49089D1C3D86A05AF6B66180"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1CAA26B7288664E0A68A8B5158BEAFB4"
             {
-            "SourcePath" = "8:CsvHelper.xml"
-            "TargetName" = "8:CsvHelper.xml"
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:CsvHelper, Version=2.0.0.0, Culture=neutral, PublicKeyToken=8c4959082be5c823, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_1CAA26B7288664E0A68A8B5158BEAFB4"
+                    {
+                    "Name" = "8:CsvHelper.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:CsvHelper.dll"
+            "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_2148BEDF2D9F4C798F0415DAA20DAC90"
             "Condition" = "8:"
@@ -190,21 +201,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E7FE1314729A977087AFCC623BDF0E78"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FB054DB6015499B45FACDBA0C515DEAA"
             {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:CsvHelper, Version=2.0.0.0, Culture=neutral, PublicKeyToken=8c4959082be5c823, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_E7FE1314729A977087AFCC623BDF0E78"
-                    {
-                    "Name" = "8:CsvHelper.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:CsvHelper.dll"
-            "TargetName" = "8:"
+            "SourcePath" = "8:CsvHelper.xml"
+            "TargetName" = "8:CsvHelper.xml"
             "Tag" = "8:"
             "Folder" = "8:_2148BEDF2D9F4C798F0415DAA20DAC90"
             "Condition" = "8:"
@@ -506,8 +506,8 @@
                             "Type" = "3:3"
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
-                            "Setting" = "3:1"
-                            "Value" = "8:#1202"
+                            "Setting" = "3:2"
+                            "Value" = "8:"
                             "DefaultValue" = "8:#1202"
                             "UsePlugInResources" = "11:TRUE"
                             }
@@ -730,8 +730,8 @@
                             "Type" = "3:3"
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
-                            "Setting" = "3:1"
-                            "Value" = "8:#1202"
+                            "Setting" = "3:2"
+                            "Value" = "8:"
                             "DefaultValue" = "8:#1202"
                             "UsePlugInResources" = "11:TRUE"
                             }
@@ -953,7 +953,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_992FF65E94D0451FA8CC0DA542054F8A"
             {
-            "SourcePath" = "8:..\\DiViDu\\obj\\Release\\DiViDu.xml"
+            "SourcePath" = "8:..\\DiViDu\\obj\\Debug\\DiViDu.xml"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_2148BEDF2D9F4C798F0415DAA20DAC90"
@@ -981,7 +981,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_D8AEE8271139491FBF08286D38FDF22C"
             {
-            "SourcePath" = "8:..\\DiViDu\\obj\\Release\\DiViDu.exe"
+            "SourcePath" = "8:..\\DiViDu\\obj\\Debug\\DiViDu.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_2148BEDF2D9F4C798F0415DAA20DAC90"
