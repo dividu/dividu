@@ -20,17 +20,17 @@
     Public Enum LogColumns
         CurrentDate
         Comment
-        PseudoWord
-        VisualField
-        Task
         Stimulus
+        VisualField
+        PseudoWord
+        Tapping
         WordCategory
-        Category
+        SubCategory
         Response
         ReactionTime
-        TickAvg
-        Letters
-        TickTimes
+        IntertapIntervalAverage
+        TappingKeys
+        IntertapInterval
     End Enum
 
     Public Class WordListEntry

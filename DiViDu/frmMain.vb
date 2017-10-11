@@ -208,10 +208,10 @@ Public Class FrmMain
             'col 1
             _csvWriter.WriteField(DateTime.Now)
             _csvWriter.WriteField(comment)
-            _csvWriter.WriteField(_currentItem.Pseudoword)
-            _csvWriter.WriteField(_currentItem.VisualField)
-            _csvWriter.WriteField(_currentItem.Tapping)
             _csvWriter.WriteField(_currentItem.Stimulus)
+            _csvWriter.WriteField(_currentItem.VisualField)
+            _csvWriter.WriteField(_currentItem.Pseudoword)
+            _csvWriter.WriteField(_currentItem.Tapping)
             _csvWriter.WriteField(_currentItem.WordCategory)
             _csvWriter.WriteField(_currentItem.SubCategory)
             _csvWriter.WriteField(_evaluation.ToString)
