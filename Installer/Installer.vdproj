@@ -21,7 +21,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_8E5E3E8A5CB3420B8E7E38D175AB7484"
+        "MsmKey" = "8:_69855F2F79DC43878C9366A0B4416B1F"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -181,10 +181,10 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8E5E3E8A5CB3420B8E7E38D175AB7484"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_69855F2F79DC43878C9366A0B4416B1F"
             {
-            "SourcePath" = "8:..\\Testlisten\\wordListEng.csv"
-            "TargetName" = "8:wordListEng.csv"
+            "SourcePath" = "8:..\\triallists\\TEST.csv"
+            "TargetName" = "8:TEST.csv"
             "Tag" = "8:"
             "Folder" = "8:_2148BEDF2D9F4C798F0415DAA20DAC90"
             "Condition" = "8:"
@@ -235,17 +235,6 @@
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Property" = "8:TARGETDIR"
-                "Folders"
-                {
-                }
-            }
-            "{1525181F-901A-416C-8A58-119130FE478E}:_5B23FE649E394B5EBE04F3D5988B7EE0"
-            {
-            "Name" = "8:#1916"
-            "AlwaysCreate" = "11:FALSE"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Property" = "8:DesktopFolder"
                 "Folders"
                 {
                 }
