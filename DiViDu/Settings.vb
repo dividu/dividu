@@ -96,22 +96,7 @@ Namespace My
                 UpdateDictionaries(p.Name, p.PropertyValue)
             Next
         End Sub
-        '    Public screenWidthInCm = 33.75 'Setzt Bildschirmbreit auf 33,75 cm konstant
-        '    Public screenHeightInCm = 27 'Setzt Bildschirmhöhe auf 27cm konstant
-        '    Public screenWidhtInPx = 1280 'Setzt Bildschirmbreite auf 1280 Pixel
-        '    Public screenHeightInPx = 1024 'Setzt Bildschirmhöhe auf 1024 Pixel
 
-        '    Public keyTappingsLeft() As Keys = {Keys.F12, Keys.F11, Keys.F10, Keys.F9}
-        '    Public keyTappingsRight() As Keys = {Keys.F1, Keys.F2, Keys.F3, Keys.F4}
-
-        '    Public KeyWortLeft = Keys.F1 'Standardeinstellung zu Beginn des Programms: tapping Links; Wort F1
-        '    Public KeyPseudoWortLeft = Keys.F2 'Standardeinstellung zu Beginn des Programms: tapping Links; Pseudowort F2
-        '    Public KeyWortRight = Keys.F11 'Standardeinstellung zu Beginn des Programms: tapping Links; Wort F1
-        '    Public KeyPseudoWortRight = Keys.F12 'Standardeinstellung zu Beginn des Programms: tapping Links; Pseudowort F2
-
-        '    Public breakDistance As Integer = 72 'Standardeinstellung zu Beginn des Programms: break nach 72 Items
-
-        '    Public TappingLinks As Boolean = True 'Standardeinstellung zu Beginn des Programms: tapping Links
         Public Const CsvDelimiter As String = ";"
         Public Shared ReadOnly ColorNoTapping As Color = Color.Green
         Public Shared ReadOnly ColorTapping As Color = Color.Red
