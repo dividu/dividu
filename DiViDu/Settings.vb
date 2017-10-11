@@ -102,8 +102,8 @@ Namespace My
         Public Shared ReadOnly ColorTapping As Color = Color.Red
 
         Public Shared ReadOnly ColorKeywords As Dictionary(Of String, Color) = New Dictionary(Of String, Color) From {
-            {"GELB", Color.Yellow},
-            {"ROT", Color.Red}
+            {"YELLOWBAR", Color.Yellow},
+            {"REDBAR", Color.Red}
             }
     End Class
 End Namespace
