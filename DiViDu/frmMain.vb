@@ -356,6 +356,7 @@ Public Class FrmMain
     Sub ColorField(label As Label)
         If MySettings.ColorKeywords.ContainsKey(_currentItem.Stimulus) Then
             label.BackColor = MySettings.ColorKeywords(_currentItem.Stimulus)
+            label.Text = ""
         End If
     End Sub
 
